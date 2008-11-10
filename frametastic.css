@@ -1,0 +1,21 @@
+* {margin: 0; padding: 0; font-family: Verdana, Arial, Helvetica, sans-serif;}
+#header {border-bottom: 2px groove #333; padding: 20px;}
+#footer {border-top: 2px groove #333;}
+#header, #footer {background: #e5e5e5;}
+h1 span {font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;}
+h2 span {font-size: 18px; font-weight: normal;}
+.fluid	{color: #08398C;}
+.box h3 {text-align: center; font-weight: normal; margin: 10px 0;}
+.box span {color: #000;}
+.box {background-color: #eee; border: 1px solid #333;}			
+#footer {width: 99%; position: absolute; bottom: 0; padding: 10px 0 10px 10px; font-size: 12px;}
+#swatches {width: 400px; float: left;}
+#swatches div {float: left; width: 20px; height: 20px; margin: 10px 10px 0 0; border: 1px solid #000;}
+.swatch {text-align: center; font-weight: bold;}
+div.shortcuts {width: 320px !important; float: left;}
+div.shortcuts ul {margin-left: 20px; font-weight: normal;}
+#wireframe {z-index: -9999;}
+#saved_frames {position: absolute; top: 10px; right: 10px; height: 70px; font-size: x-small;}
+#wireframe_list li {margin-left: 20px;}
+li#none_saved { list-style-type: none; margin-left: 0;}
+br {clear: both;}

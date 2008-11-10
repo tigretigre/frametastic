@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en-us" />
+		
+		<title>Frametastic :: drag &#39;n drop prototyping</title>
+		
+		<meta name="ROBOTS" content="ALL" />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta name="MSSmartTagsPreventParsing" content="true" />
+		<meta name="Copyright" content="(c) 2006 Copyright content:  Copyright design: Christian Romney" />
+		<!-- (c) Copyright 2006 by Christian Romney All Rights Reserved. -->
+		<script type="text/javascript" src="prototype.js"></script>
+		<script type="text/javascript" src="effects.js"></script>
+		<script type="text/javascript" src="dragdrop.js"></script>
+		<script type="text/javascript" src="wireframe.js"></script>
+		<link type="text/css" rel="stylesheet" href="frametastic.css" />
+	</head>	
+	<body onload="init()" onkeyup="handle_keypress(event)" onmousedown="start_box(event)" onmouseup="complete_box(event)">
+		<div id="header">
+			<h1><span class="fluid">Frame</span><span>tastic</span></h1>
+			<h2><span>drag &#39;n drop prototyping</span></h2>
+		</div>
+		<div id="wireframe">
+
+		</div>			
+		<div id="footer">			
+			<div id="swatches">	
+				<h4>Swatches</h4>			
+				<p>Drag a swatch onto a box to color it, or<br />
+					select a box and press the number of a color.<br />
+					Double-click a swatch to change its color.</p>
+				<div id="s1" class="swatch" style="background-color: #DFA7A7;">1</div>
+				<div id="s2" class="swatch" style="background-color: #ADA7DF;">2</div>	
+				<div id="s3" class="swatch" style="background-color: #A7DFA9;">3</div>
+		
+				<div id="s4" class="swatch" style="background-color: #EFEAB3;">4</div>			
+				<div id="s5" class="swatch" style="background-color: #B6A666;">5</div>
+				<div id="s6" class="swatch" style="background-color: #08398C;">6</div>	
+		
+	 			<div id="s7" class="swatch" style="background-color: #185800;">7</div>
+				<div id="s8" class="swatch" style="background-color: #FFCC00;">8</div>
+				<div id="s9" class="swatch" style="background-color: #E70808;">9</div>				
+			</div>
+			<div class="shortcuts">
+				<h4>Keyboard Shortcuts</h4>			
+				<p>Click on a box to select it, then press:</p>
+				<ul>
+					<li><strong>Esc</strong> to deselect the box</li>
+					<li><strong>C</strong> to clone the box</li>
+					<li><strong>R</strong> to resize the box</li>
+					<li><strong>I</strong> to convert the box to an image</li>
+					<li><strong>X</strong> to delete the box</li>					
+					<li><strong>B</strong> to send the box backward</li>
+					<li><strong>F</strong> to bring the box forward</li>
+				</ul>
+			</div>
+			<div class="shortcuts">
+				<ul>
+					<li><strong>Up</strong> to move the box up</li>
+					<li><strong>Down</strong> to move the box down</li>
+					<li><strong>Left</strong> to move the left</li>
+					<li><strong>Right</strong> to move the right</li>
+					<li><strong>S</strong> save the current wireframe</li>
+					<li><strong>L</strong> load a saved wireframe</li>
+					<li><strong>D</strong> delete a saved wireframe</li>
+					<li><strong>W</strong> wipe the screen clean</li>
+				</ul>
+			</div>			
+			<br />
+		</div>		
+		<div id="saved_frames">
+			<h4>Saved Wireframes</h4>
+			<ol id="wireframe_list">
+				<li id="none_saved">No saved wireframes</li>
+			</ol>	
+		</div>
+	</body>
+</html>
+
