@@ -1,0 +1,11 @@
+.frame {border: 1px solid #000; position: absolute; display: block; background: #fff  ;}
+.active {outline: 2px solid #bfcfff; border-radius: 3px;}
+
+body {font-family: "Lucida Grande",Verdana,Arial,Helvetica,sans-serif;}
+header h1, header h2 {color: #000; background-color: #e5e5e5; }
+header h1 {font-size: 197%; padding: 20px 0 6px 20px;}
+header h2 {
+  font-size: 138.5%; padding: 0 0 20px 20px;
+  border-bottom: 1px solid #888;
+}
+header span {color: #08398c;}
